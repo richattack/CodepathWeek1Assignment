@@ -14,6 +14,11 @@
 		E264A8C01D6A575800991012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E264A8BE1D6A575800991012 /* LaunchScreen.storyboard */; };
 		E264A8CB1D6A575800991012 /* Unit_1_AssigmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264A8CA1D6A575800991012 /* Unit_1_AssigmentTests.swift */; };
 		E264A8D61D6A575800991012 /* Unit_1_AssigmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264A8D51D6A575800991012 /* Unit_1_AssigmentUITests.swift */; };
+		E274DA701D6A8849002D6828 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274DA6F1D6A8849002D6828 /* CreateAccountRootViewController.swift */; };
+		E274DA721D6A887A002D6828 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274DA711D6A887A002D6828 /* SignInRootViewController.swift */; };
+		E274DA741D6A94DE002D6828 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274DA731D6A94DE002D6828 /* TermsViewController.swift */; };
+		E274DA761D6A9A53002D6828 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274DA751D6A9A53002D6828 /* SettingsViewController.swift */; };
+		E274DA781D6B9AB6002D6828 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E274DA771D6B9AB6002D6828 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		E264A8D11D6A575800991012 /* Unit 1 AssigmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit 1 AssigmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E264A8D51D6A575800991012 /* Unit_1_AssigmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_1_AssigmentUITests.swift; sourceTree = "<group>"; };
 		E264A8D71D6A575800991012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E274DA6F1D6A8849002D6828 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		E274DA711D6A887A002D6828 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		E274DA731D6A94DE002D6828 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		E274DA751D6A9A53002D6828 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E274DA771D6B9AB6002D6828 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				E264A8B51D6A575800991012 /* AppDelegate.swift */,
 				E264A8B71D6A575800991012 /* ViewController.swift */,
 				E264A8B91D6A575800991012 /* Main.storyboard */,
+				E274DA771D6B9AB6002D6828 /* Readme.md */,
+				E274DA751D6A9A53002D6828 /* SettingsViewController.swift */,
+				E274DA731D6A94DE002D6828 /* TermsViewController.swift */,
+				E274DA711D6A887A002D6828 /* SignInRootViewController.swift */,
+				E274DA6F1D6A8849002D6828 /* CreateAccountRootViewController.swift */,
 				E264A8BC1D6A575800991012 /* Assets.xcassets */,
 				E264A8BE1D6A575800991012 /* LaunchScreen.storyboard */,
 				E264A8C11D6A575800991012 /* Info.plist */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E274DA781D6B9AB6002D6828 /* Readme.md in Sources */,
+				E274DA721D6A887A002D6828 /* SignInRootViewController.swift in Sources */,
+				E274DA701D6A8849002D6828 /* CreateAccountRootViewController.swift in Sources */,
 				E264A8B81D6A575800991012 /* ViewController.swift in Sources */,
 				E264A8B61D6A575800991012 /* AppDelegate.swift in Sources */,
+				E274DA741D6A94DE002D6828 /* TermsViewController.swift in Sources */,
+				E274DA761D6A9A53002D6828 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				E264A8DC1D6A575800991012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E264A8DD1D6A575800991012 /* Build configuration list for PBXNativeTarget "Unit 1 AssigmentTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				E264A8DF1D6A575800991012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E264A8E01D6A575800991012 /* Build configuration list for PBXNativeTarget "Unit 1 AssigmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				E264A8E21D6A575800991012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
